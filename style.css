@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    color: white;
+    padding: 2.5rem 3rem;
+    gap: 3rem;
+    padding-bottom: 40px;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-top: 40px;
+    row-gap: 48px;
+    column-gap: 48px;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 2.3rem;
+    align-items: center;
+    color: white;
+    column-gap: 36.8px;
+    row-gap: 36.8px;
+}
+
+li {
+    font-size: .85rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+}
+
+.home {
+    background-image: url(./images/galaxy.jpg);
+    height: 100vh;
+    size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tickets {
+    background-image: url(./images/landscape.jpg);
+    height: 100vh;
+    size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pricing {
+    background-image: url(./images/eclipse.jpg);
+    height: 100vh;
+    size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+}
+
+/* HOME */
+.home .top{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 200px;
+    left: 3rem;
+    color: white;
+    gap: .9rem;
+    column-gap: 14.4px;
+    row-gap: 14.4px;
+}
+
+.home h2 { /* Recent Launch */
+    display: flex;
+    box-sizing: content-box;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 100;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    left: 3rem;
+    gap: .9rem;
+}
+
+.home h1 { /* Shipflight Video */
+    display: flex;
+    box-sizing: content-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    bottom: 200px;
+}
+.home .more { /* Read More */
+    position: relative;
+    box-sizing: content-box;
+    margin-top: 1.2rem;
+    max-width: 200px;
+    font-size: .85rem;
+    font-weight: 700;
+    margin-top: 19.2px;
+    letter-spacing: .1rem;
+    padding: 1rem 2rem;
+    opacity: 1;
+    color: white;
+    border: 2px solid white;
+}
+
+.more:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* BUY TICKETS */
+
+ .tickets .buy {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 3rem;
+    top: 800px;
+    color: white;
+    gap: .9rem;
+    column-gap: 14.4px;
+    row-gap: 14.4px;
+}
+
+.tickets h2 { /* Buy Tickets */
+    display: flex; 
+    box-sizing: content-box;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 100;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    left: 3rem;
+    gap: .9rem;
+}
+
+.tickets h1 { /* You can go to space! */
+    display: flex;
+    box-sizing: content-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    bottom: 200px;
+}
+
+.tickets .more { /* Read More */
+    position: relative;
+    box-sizing: content-box;
+    margin-top: 1.2rem;
+    max-width: 200px;
+    font-size: .85rem;
+    font-weight: 700;
+    margin-top: 19.2px;
+    letter-spacing: .1rem;
+    padding: 1rem 2rem;
+    opacity: 1;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.more:hover {
+    background: white;
+    color: black;
+}
+/* PRICING */
+
+.pricing .price { 
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 3rem;
+    top: 1400px;
+    color: white;
+    gap: .9rem;
+    column-gap: 14.4px;
+    row-gap: 14.4px;
+}
+
+.pricing h2 { /* Space Travel Deals */
+    display: flex; 
+    box-sizing: content-box;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 100;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    left: 3rem;
+    gap: .9rem;
+}
+
+.pricing h1 { /* Sell Kidney */
+    display: flex;
+    box-sizing: content-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5rem;
+    bottom: 200px;
+}
+
+.pricing .more { /* Read More */
+    position: relative;
+    box-sizing: content-box;
+    margin-top: 1.2rem;
+    max-width: 200px;
+    font-size: .85rem;
+    font-weight: 700;
+    margin-top: 19.2px;
+    letter-spacing: .1rem;
+    padding: 1rem 2rem;
+    opacity: 1;
+    color: white;
+    border: 2px solid white;
+}
+
+.more:hover {
+    background: white;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+    color: #555;
+}
